@@ -395,6 +395,18 @@ export const CHOOSE_CARDS: Card[] = [
   // --- فصلان وضحك للركب ---
   { id: 'ch-h-01', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'كل ما تعجبك فكرة تضحك بصوت بطة عالي ومتعرفش تكتمه، ولا كل ما تتعصب تلاقي نفسك بترقص شرقي لا إراديا؟' },
   { id: 'ch-h-02', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تقرأ آخر ٥ رسايل على الواتس بصوت عالي للناس اللي قاعدة، ولا تدي موبايلك لأي حد فيهم يقلب في الجاليري (الصور) دقيقتين؟' },
-  { id: 'ch-h-03', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تروح انترفيو شغل لابس لبس بلياتشو، ولا تروح فرح أعز صحابك لابس بيجامة نوم؟' }
+  { id: 'ch-h-03', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تروح انترفيو شغل لابس لبس بلياتشو، ولا تروح فرح أعز صحابك لابس بيجامة نوم؟' },
+
+
+
+  { id: 'ch-n-01', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تعطس بصوت عالي جدا في أي مكان هادي، ولا تكح كحة مستفزة كل 5 دقايق وإنت بتتكلم مع حد؟' },
+  { id: 'ch-n-02', gameId: 'choose', deckId: 'ch-relationships', mood: 'bold', textAr: 'تصاحب حد مبيعرفش يحفظ سر أبدا بس جدع جدا، ولا تصاحب حد كتوم جدا بس ملوش في الجدعنة؟' },
+  { id: 'ch-n-03', gameId: 'choose', deckId: 'ch-lifestyle', mood: 'light', textAr: 'تعيش في بيت فخم بس مفيهوش أي نت، ولا تعيش في أوضة وصالة بس النت فيها أسرع نت في العالم؟' },
+  { id: 'ch-n-04', gameId: 'choose', deckId: 'ch-career', mood: 'deep', textAr: 'تشتغل مع مدير عصبي بس بيعلمك كل حاجة، ولا مع مدير طيب جدا بس مفيش أي تطور في شغلك؟' },
+  { id: 'ch-n-05', gameId: 'choose', deckId: 'ch-impossible', mood: 'bold', textAr: 'تعرف تقرأ أفكار الناس اللي بتكرهك بس، ولا تعرف أفكار الناس اللي بتحبك بس؟' },
+  { id: 'ch-n-06', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تلبس شرابين ألوانهم مختلفة طول حياتك، ولا تلبس جزمة أضيق من مقاسك بنمرة طول حياتك؟' },
+  { id: 'ch-n-07', gameId: 'choose', deckId: 'ch-relationships', mood: 'bold', textAr: 'شريك حياتك يكون أجمل إنسان في الدنيا بس دمه تقيل جدا، ولا شكله عادي بس دمه خفيف وبيموتك من الضحك؟' },
+  { id: 'ch-n-08', gameId: 'choose', deckId: 'ch-career', mood: 'deep', textAr: 'تاخد ترقية كبيرة جدا في شغلك بس زمايلك كلهم يكرهوك، ولا تفضل في نفس مكانك بس الكل بيحبك؟' },
+  { id: 'ch-n-09', gameId: 'choose', deckId: 'ch-lifestyle', mood: 'light', textAr: 'تاكل أكل صحي ومفيد بس طعمه وحش جدا طول حياتك، ولا تاكل فاست فود بس تتخن وتبقى مش صحي؟' },
 
 ];

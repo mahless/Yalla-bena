@@ -385,6 +385,27 @@ export const TRUTH_CARDS: Card[] = [
   { id: 'tr-e-03', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'إيه أكتر حاجة عملتها وندمت عليها ومحدش في أهلك يعرفها لحد دلوقتي؟' },
   { id: 'tr-e-04', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'لو فتحنا الموبايل بتاعك دلوقتي وبصينا في السيرش هيستوري، إيه أكتر حاجة هتكسفك؟' },
   { id: 'tr-e-05', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'مين في القعدة دي تحسه دمه تقيل أحيانا بس بتجاملوه؟' },
-  { id: 'tr-e-06', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'إيه أكتر كدبة بتكدبها على الناس ومصدقينها عنك؟' }
+  { id: 'tr-e-06', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'إيه أكتر كدبة بتكدبها على الناس ومصدقينها عنك؟' },
+
+
+
+  { id: 'tr-n-01', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'مين في القعدة دي تحسه أكتر واحد بيلبس شيك، ومين أكتر واحد محتاج يظبط لبسه شوية؟' },
+  { id: 'tr-n-02', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'هل في حد قاعد معانا هنا كنت واخد عنه فكرة وحشة جدا أول ما عرفته؟ وليه؟' },
+  { id: 'tr-n-03', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'إيه أكتر صفة فيك بتخلي الناس تبعد عنك أو تفهمك غلط؟' },
+  { id: 'tr-n-04', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'لو هتاخد حد من القعدة دي معاك في جزيرة مهجورة، هتختار مين؟ وليه؟' },
+  { id: 'tr-n-05', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'إيه أكتر حاجة بتخاف الناس تعرفها عنك عشان صورتك متهتزش قدامهم؟' },
+  { id: 'tr-n-06', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'عمرك اتعشمت في حد قريب منك جدا وخذلك خذلان عمرك ما نسيته؟ احكيلنا.' },
+  { id: 'tr-n-07', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'إيه أكتر إشاعة طلعت عليك في يوم من الأيام وكانت مضحكة أو غريبة؟' },
+  { id: 'tr-n-08', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'لو عرفت إن باسورد موبايلك هيتفتح والكل هيشوف اللي فيه لمدة 5 دقايق، إيه أول أبلكيشن هتمسحه؟' },
+  { id: 'tr-n-09', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'مين الشخص اللي ندمت إنك معرفتوش بدري في حياتك؟' },
+  { id: 'tr-n-10', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'مين في القعدة دي بيعمل أكتر مجهود عشان يبان إنه شخص مثالي وهو من جواه كارثة؟' },
+  { id: 'tr-n-11', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'عمرك أخدت حاجة مش بتاعتك (حتى لو تافهة) ومحدش عرف لحد دلوقتي؟' },
+  { id: 'tr-n-12', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'لو معاك ممحاة للذاكرة، إيه العلاقة اللي هتمسحها من تاريخك تماما؟' },
+  { id: 'tr-n-13', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'لو تقدر تعيش حياة حد من القعدة دي لمدة يوم واحد.. تختار حياة مين وليه؟' },
+  { id: 'tr-n-14', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'إيه أغرب مكان استخبيت فيه وإنت بتعيط عشان محدش يشوفك؟' },
+  { id: 'tr-n-15', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'إيه الحاجة اللي لو شريك حياتك عملها، هتفركش معاه فورا بدون أي نقاش؟' },
+  { id: 'tr-n-16', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'إيه أكتر فيديو شوفته على تيك توك أو ريلز ومرديتش تعمله لايك عشان مكسوف حد يشوفه؟' },
+  { id: 'tr-n-17', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'هل عمرك كدبت كدبة كبيرة في الشغل أو الجامعة ومشت عليهم كلهم؟' },
+  { id: 'tr-n-18', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'مين الشخص اللي كان بيسندك وقت أزمتك الأخيرة؟ وهل شكرته ولا لأ؟' },
 
 ];

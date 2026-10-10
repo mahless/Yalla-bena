@@ -396,6 +396,25 @@ export const WHO_AMONG_US_CARDS: Card[] = [
   { id: 'wau-e-03', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بيعمل خطط ومشاريع ومبينفذش منها أي حاجة؟' },
   { id: 'wau-e-04', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد ممكن يبيعنا كلنا لو ارتبط أو حب جديد؟' },
   { id: 'wau-e-05', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد بيبان ملاك بس هو من جواه سوسة ومصيبة؟' },
-  { id: 'wau-e-06', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد عنده القدرة يكذب ويبصلك في عينك ويقنعك وهو بيكذب؟' }
+  { id: 'wau-e-06', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد عنده القدرة يكذب ويبصلك في عينك ويقنعك وهو بيكذب؟' },
+
+
+
+  { id: 'wau-n-01', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بيعمل دايت يوم السبت ويبوظه يوم التلات؟' },
+  { id: 'wau-n-02', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد ممكن يسرب سر ائتمنته عليه من غير ما يقصد؟' },
+  { id: 'wau-n-03', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بياخد قرارات مصيرية في حياته بناء على مزاجه في اللحظة دي؟' },
+  { id: 'wau-n-04', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد بيحب يعمل نفسه غلبان ومظلوم وهو اللي ظالمنا كلنا؟' },
+  { id: 'wau-n-05', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد لو دخل مطبخ ممكن يحرقه وهو بيعمل بيض؟' },
+  { id: 'wau-n-06', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد بيحقد على نجاح غيره في صمت؟ (حتى لو بهزار)' },
+  { id: 'wau-n-07', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد صوته عالي جدا وهو بيتكلم في الموبايل لدرجة إن الشارع كله بيسمعه؟' },
+  { id: 'wau-n-08', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد ممكن يخترع كدبة كبيرة ويقنعنا كلنا بيها عادي جدا؟' },
+  { id: 'wau-n-09', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بيقعد يقلب في القنوات ساعة وفي الآخر ينام والموبايل في إيده؟' },
+  { id: 'wau-n-10', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد بيغير رأيه بناء على الشخص اللي بيتكلم معاه عشان يعجبه؟' },
+  { id: 'wau-n-11', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد مبيعرفش يشتري لنفسه لبس ودايما محتاج حد معاه يختارله؟' },
+  { id: 'wau-n-12', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد ممكن يسيب شغله أو دراسته عشان قصة حب فاشلة؟' },
+  { id: 'wau-n-13', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد ممكن يتوه في الشارع حتى لو معاه جوجل ماب؟' },
+  { id: 'wau-n-14', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد بياخد سكرين شوت لأي حاجة ويبعتها في الجروبات التانية؟' },
+  { id: 'wau-n-15', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بيضحك في أوقات الجد والمصايب ومبيقدرش يمسك نفسه؟' },
+  { id: 'wau-n-16', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد مستعد يدوس على أي حد في سبيل مصلحته (حتى لو هزار)؟' },
 
 ];

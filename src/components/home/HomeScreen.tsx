@@ -116,6 +116,17 @@ const GAME_CARD_THEMES: Record<GameId, GameCardTheme> = {
     Icon: Flame,
     tag: 'صراحة وشفافية',
   },
+  'dares': {
+    gradient: 'linear-gradient(135deg, #FFFFFF 0%, #FEFDFD 40%, #FEF2F2 100%)',
+    hoverGradient: 'linear-gradient(135deg, #FFFFFF 0%, #FEF2F2 35%, #FEE2E2 100%)',
+    glowRgba: 'rgba(239, 68, 68, 0.16)',
+    borderColor: 'rgba(239, 68, 68, 0.22)',
+    hoverBorderColor: 'rgba(239, 68, 68, 0.5)',
+    iconBg: 'bg-red-500/10 border-red-500/25',
+    iconText: 'text-red-700',
+    Icon: Flame, // Reusing Flame or maybe Sparkles
+    tag: 'أحكام مسخرة',
+  },
 };
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({

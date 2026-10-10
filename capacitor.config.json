@@ -1,0 +1,14 @@
+{
+  "appId": "com.baynana.socialcards",
+  "appName": "بيننا - Baynana",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}

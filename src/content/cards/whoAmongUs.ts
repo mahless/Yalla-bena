@@ -1,0 +1,393 @@
+import { Card, DeckDefinition } from '../../types/game';
+
+export const WHO_AMONG_US_DECKS: DeckDefinition[] = [
+  {
+    id: 'wa-gatherings',
+    nameAr: 'أسرار وطباع السهرة',
+    descriptionAr: 'من يتأخر دائماً؟ من ينسى المحفظة؟ من ينام أولاً؟',
+    mood: 'funny',
+  },
+  {
+    id: 'wa-phone',
+    nameAr: 'الهاتف وعصر الـ Seen',
+    descriptionAr: 'من يترك الرسائل معلقة لأيام؟ ومن يرسل ريكوردات مدتها 5 دقائق؟',
+    mood: 'funny',
+  },
+  {
+    id: 'wa-shopping',
+    nameAr: 'فلوس وتسوق وقرارات متهورة',
+    descriptionAr: 'من يشتري أشياء لا يحتاجها؟ ومن يفاوض على نصف دينار؟',
+    mood: 'light',
+  },
+  {
+    id: 'wa-drama',
+    nameAr: 'دراما وعصبية و Overthinking',
+    descriptionAr: 'من يضخم الأمور؟ ومن يحلل النظرات والكلمات بالساعات؟',
+    mood: 'bold',
+  },
+  {
+    id: 'wa-travel',
+    nameAr: 'في السفر والخرجات',
+    descriptionAr: 'من يضيع الطريق؟ ومن ينسى حقائبه؟ ومن يقرر أماكن الأكل؟',
+    mood: 'light',
+  },
+];
+
+export const WHO_AMONG_US_CARDS: Card[] = [
+  // --- 1. أسرار وطباع الجلسة (wa-gatherings) ---
+  {
+    id: 'wa-01',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا إذا قال "أنا في الطريق وخمس دقائق وأوصل" يكون لسه ما قام من سريره أصلاً؟',
+  },
+  {
+    id: 'wa-02',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا لو حصل موقف محرج أو جاد جداً ينفجر في الضحك في أسوأ توقيت ممكن ولا يستطيع التماسك؟',
+  },
+  {
+    id: 'wa-03',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'light',
+    textAr: 'مين فينا الشخص اللي إذا غاب عن القعدة تحس إن السهرة ناقصة وهادئة بدون روحه وطاقته؟',
+  },
+  {
+    id: 'wa-04',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا وقت دفع الحساب في المطعم يختفي في دورة المياه أو يبحث عن محفظته ربع ساعة؟',
+  },
+  {
+    id: 'wa-05',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا لو دخل في نقاش يفضل يجادل حتى لو اكتشف في منتصف الحديث أنه على خطأ فادح؟',
+  },
+  {
+    id: 'wa-06',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا أول واحد بينعس وينام في أي سهرة حتى لو كانت الأصوات صاخبة والموسيقى عالية؟',
+  },
+
+  // --- 2. الهاتف وعصر الـ Seen (wa-phone) ---
+  {
+    id: 'wa-ph-01',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا اللي تليفونه 24 ساعة على الصامت وشاحنه دائماً 3%، والوصول إليه بالهاتف أشبه بالمستحيل؟',
+  },
+  {
+    id: 'wa-ph-02',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا بيبعت رسائل صوتية (Voice Notes) مدتها 4 دقائق عشان يقول كلمة واحدة كان ممكن يكتبها في ثانيتين؟',
+  },
+  {
+    id: 'wa-ph-03',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا بيشوف الرسالة ويعمل Seen ويرد في سره وينسى يرد في الواقع لمدة 3 أيام؟',
+  },
+  {
+    id: 'wa-ph-04',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا أكتر واحد بيصور الأكل والمكان من 20 زاوية قبل ما يسمح لأي حد يمد إيده أو يلمس الشوكة؟',
+  },
+  {
+    id: 'wa-ph-05',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا بيقضي معظم القعدة باصص في شاشة تليفونه ويقول "سامعكم كملوا أنا مركز معاكم"؟',
+  },
+
+  // --- 3. فلوس وتسوق وقرارات متهورة (wa-shopping) ---
+  {
+    id: 'wa-sh-01',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا بيشتري حاجات أونلاين لمجرد إن عليها خصم، ويفتح الصندوق ويندم فوراً؟',
+  },
+  {
+    id: 'wa-sh-02',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا أول ما يقبض مرتبه أو يحصل على فلوس يتحول لمليونير كريم، وفي آخر الشهر يدور على الفكة في البيت؟',
+  },
+  {
+    id: 'wa-sh-03',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا أكتر واحد بيشترك في الجيم أو كورسات وبيدفع الاشتراك ولا يذهب إلا مرتين فقط؟',
+  },
+  {
+    id: 'wa-sh-04',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا ممكن يدفع مبالغ ضخمة في قهوة أو أكل فخم، لكن لو لقى مصاريف شحن 10 جنيه يلغي الطلب كله؟',
+  },
+
+  // --- 4. دراما وعصبية و Overthinking (wa-drama) ---
+  {
+    id: 'wa-dr-01',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا أكتر واحد بيعمل Overthinking في رسالة مكونة من كلمتين ويفضل يحلل نية اللي كتبها لأيام؟',
+  },
+  {
+    id: 'wa-dr-02',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا زعله سريع وواضح جداً، ولا يعرف يخبي أي ضيق على ملامح وجهه حتى لو حاول؟',
+  },
+  {
+    id: 'wa-dr-03',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا اللي مستعد يقطع علاقته بشخص تماماً على موقف يبدو صغيراً للآخرين لكنه يعتبره خطاً أحمر؟',
+  },
+  {
+    id: 'wa-dr-04',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا إذا حكى موقف بسيط يحوله لقصة درامية وسيناريو مشوق يخلي الكل يوقف أنفاسه؟',
+  },
+
+  // --- 5. في السفر والخرجات (wa-travel) ---
+  {
+    id: 'wa-tr-01',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا لو الـ GPS فصل أو الموبايل قفل يضيع في مدينته وما يعرف يرجع بيته؟',
+  },
+  {
+    id: 'wa-tr-02',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا اللي بنعتمد عليه دائماً في اختيار المطعم أو المكان الجديد لأنه ذويق وفاهم في الأكل؟',
+  },
+  {
+    id: 'wa-tr-03',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا بيحزم شنطة السفر قبل الرحلة بساعة واحدة فقط وينسى نصف أشيائه الأساسية؟',
+  },
+  {
+    id: 'wa-tr-04',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا في أي سفرية أو خروجة هو المنسق والمدير اللي بيصحّي الكل ويحدد المواعيد بدقة؟',
+  },
+
+  // --- إضافات مميزة لدعم المحتوى (تناسب الأعمار 10 - 50 سنة) ---
+  // أسرار وطباع الجلسة (wa-gatherings)
+  {
+    id: 'wa-gat-07',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا أول ما يقعد في أي مكان لازم يسأل فوراً عن كلمة سر الواي فاي (Wi-Fi) ومكان شاحن الموبايل؟',
+  },
+  {
+    id: 'wa-gat-08',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا يطلب طلبات غريبة ومعدلة في الأكل مثل: "بدون بصل وبدون صوص ومع زيادة ليمون ومسخّن زيادة"؟',
+  },
+  {
+    id: 'wa-gat-09',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا الشخص اللي لما يبدأ يتكلم في موضوع يقعد يشرح نص ساعة بدون ما يوصل للنقطة الأساسية؟',
+  },
+  {
+    id: 'wa-gat-10',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'light',
+    textAr: 'مين فينا اللي دايمًا يبتكر ألعاب وتحديات وينعش القعدة ويخلي الجميع يشارك ويضحك من قلبه؟',
+  },
+  {
+    id: 'wa-gat-11',
+    gameId: 'who-among-us',
+    deckId: 'wa-gatherings',
+    mood: 'funny',
+    textAr: 'مين فينا اللي يقعد يتثاءب وينعس بدري في السهرة ويدّعي أنه مركز معكم وهو نايم بنصف عين؟',
+  },
+
+  // الهاتف وعصر الـ Seen (wa-phone)
+  {
+    id: 'wa-phn-06',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا بطارية تليفونه دائماً 3% أو 5% ويبحث عن شاحن في كل مكان يدخله؟',
+  },
+  {
+    id: 'wa-phn-07',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا يرسل فويس نوت (Voice Note) مدتها 7 دقائق كاملة فيها قصة كان ممكن تنتهي في سطرين؟',
+  },
+  {
+    id: 'wa-phn-08',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا يفتح رسالة الواتساب وتظهر عنده Seen ولكنه يرد بعد أسبوع وكأن شيئاً لم يكن؟',
+  },
+  {
+    id: 'wa-phn-09',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا اللي عنده 40 ألف صورة و 800 سكرين شوت في الاستوديو ومساحة الموبايل ممتلئة طوال السنة؟',
+  },
+  {
+    id: 'wa-phn-10',
+    gameId: 'who-among-us',
+    deckId: 'wa-phone',
+    mood: 'funny',
+    textAr: 'مين فينا يقعد يصور الأكل والمشروبات 20 صورة من كل زاوية قبل ما يسمح لأي حد يلمس المعلقة؟',
+  },
+
+  // فلوس وتسوق وقرارات متهورة (wa-shopping)
+  {
+    id: 'wa-shp-05',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا يدخل السوبر ماركت عشان يشتري غرض واحد ويخرج ومعه عربة تسوق ممتلئة بأشياء لا يحتاجها؟',
+  },
+  {
+    id: 'wa-shp-06',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا أكثر واحد يحب العزومات والكرم ويسابق دائماً على دفع الحساب في المطعم؟',
+  },
+  {
+    id: 'wa-shp-07',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا اللي خبير في مقارنة الأسعار والعروض والتخفيضات ومستحيل يشتري حاجة بسعرها الأصلي؟',
+  },
+  {
+    id: 'wa-shp-08',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا يشتري جهاز رياضي أو أداة مطبخ جديدة بحماس شديد وبعد أسبوعين يركنها كقطعة ديكور؟',
+  },
+  {
+    id: 'wa-shp-09',
+    gameId: 'who-among-us',
+    deckId: 'wa-shopping',
+    mood: 'light',
+    textAr: 'مين فينا يملأ سلة التسوق الإلكتروني في المواقع بآلاف الجنيهات ثم يقفل التطبيق فجأة ولا يشتري؟',
+  },
+
+  // دراما وعصبية و Overthinking (wa-drama)
+  {
+    id: 'wa-drm-05',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا لو تأخر عليه شخص 10 دقائق عن الموعد يبدأ يتخيل سيناريوهات حوادث وكوارث مرعبة؟',
+  },
+  {
+    id: 'wa-drm-06',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا زعله سريع وعصبيته لحظية لكن قلبه أبيض جداً ويهدأ في ثوانٍ لو ابتسمت في وجهه؟',
+  },
+  {
+    id: 'wa-drm-07',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا أكثر شخص يفكر ويحلل نبرة الصوت وتعبير الوجه إذا أرسلت له رسالة قصيرة مثل "تمام."؟',
+  },
+  {
+    id: 'wa-drm-08',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا اللي لما يتفرج على فيلم مؤثر أو حزين لازم يتأثر وتدمع عيونه حتى لو كان متماسكاً؟',
+  },
+  {
+    id: 'wa-drm-09',
+    gameId: 'who-among-us',
+    deckId: 'wa-drama',
+    mood: 'bold',
+    textAr: 'مين فينا اللي يقعد يفكر في رد قوي وذكي على موقف محرج حدث معه في النهار وهو بيحاول ينام الساعة 3 فجراً؟',
+  },
+
+  // في السفر والخرجات (wa-travel)
+  {
+    id: 'wa-trv-05',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا في رحلات السفر الطويلة بالسيارة ينام بعد أول 10 دقائق ويصحى فقط لما نوصل للمطعم؟',
+  },
+  {
+    id: 'wa-trv-06',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا الشنطة بتاعته صيدلية متنقلة فيها كل أنواع مسكنات الصداع ولزقات الجروح وأدوية المعدة؟',
+  },
+  {
+    id: 'wa-trv-07',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا اللي لو سافر بلد جديد لازم يجرب أغرب أكلة شعبية هناك بدون أي تردد؟',
+  },
+  {
+    id: 'wa-trv-08',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا اللي يجهز قائمة أغانٍ كاملة للسفر ويصر يكون هو الـ DJ المسؤول عن الموسيقى في الطريق؟',
+  },
+  {
+    id: 'wa-trv-09',
+    gameId: 'who-among-us',
+    deckId: 'wa-travel',
+    mood: 'light',
+    textAr: 'مين فينا اللي مستعد يسافر في أي لحظة وبدون تخطيط مسبق لو اتصلت به وقلت له "يلا بينا بعد ساعة"؟',
+  },
+];

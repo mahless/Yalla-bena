@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C" />
+      <stop offset="50%" stop-color="#F97316" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#FFF7ED" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#7C2D12" flood-opacity="0.35" />
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  
+  <!-- Back angled card -->
+  <rect x="115" y="135" width="220" height="300" rx="32" fill="#FED7AA" opacity="0.6" transform="rotate(-12 225 285)" />
+  
+  <!-- Front card with shadow -->
+  <rect x="175" y="115" width="220" height="300" rx="32" fill="url(#cardGrad)" filter="url(#shadow)" transform="rotate(8 285 265)" />
+  
+  <!-- Conversation speech bubbles in front card -->
+  <g transform="rotate(8 285 265)">
+    <!-- Primary speech bubble -->
+    <path d="M 235 220 C 235 195 255 175 285 175 C 315 175 335 195 335 220 C 335 245 315 265 285 265 C 275 265 265 262 257 257 L 240 265 L 245 248 C 239 240 235 230 235 220 Z" fill="#F97316" />
+    <!-- Three friendly dots -->
+    <circle cx="265" cy="220" r="5" fill="#FFFFFF" />
+    <circle cx="285" cy="220" r="5" fill="#FFFFFF" />
+    <circle cx="305" cy="220" r="5" fill="#FFFFFF" />
+    
+    <!-- Accent spark -->
+    <circle cx="285" cy="315" r="8" fill="#F97316" opacity="0.3" />
+    <circle cx="285" cy="315" r="4" fill="#F97316" />
+  </g>
+</svg>

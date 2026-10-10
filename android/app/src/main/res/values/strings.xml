@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">بيننا - Baynana</string>
+    <string name="title_activity_main">بيننا - Baynana</string>
+    <string name="package_name">com.baynana.socialcards</string>
+    <string name="custom_url_scheme">com.baynana.socialcards</string>
+</resources>

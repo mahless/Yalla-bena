@@ -1,0 +1,6 @@
+{
+  "name": "بيننا - Baynana",
+  "description": "تطبيق ألعاب كروت اجتماعية فاخر للجلسات والجمعات بين الأصدقاء والعائلة، يعمل أوفلاين بالكامل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

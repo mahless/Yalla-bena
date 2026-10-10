@@ -4,7 +4,8 @@ export type GameId =
   | 'what-if'         // لو
   | 'choose'          // اختار
   | 'who-among-us'    // مين فينا؟
-  | 'truth';          // صراحة
+  | 'truth'           // صراحة
+  | 'dares';          // أحكام وتحديات
 
 export type CardMood = 'light' | 'deep' | 'funny' | 'bold';
 

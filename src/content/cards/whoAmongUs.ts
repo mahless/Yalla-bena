@@ -417,4 +417,15 @@ export const WHO_AMONG_US_CARDS: Card[] = [
   { id: 'wau-n-15', gameId: 'who-among-us', deckId: 'wau-friends', mood: 'light', textAr: 'مين أكتر واحد بيضحك في أوقات الجد والمصايب ومبيقدرش يمسك نفسه؟' },
   { id: 'wau-n-16', gameId: 'who-among-us', deckId: 'wau-dark', mood: 'bold', textAr: 'مين أكتر واحد مستعد يدوس على أي حد في سبيل مصلحته (حتى لو هزار)؟' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'wau-m-01', gameId: 'who-among-us', deckId: 'wa-gatherings', mood: 'funny', textAr: 'مين أكتر واحد في القعدة أول ما يقعد يسأل عن باسورد الواي فاي ومكان الفيشة عشان يشحن؟' },
+  { id: 'wau-m-02', gameId: 'who-among-us', deckId: 'wa-shopping', mood: 'funny', textAr: 'مين أكتر واحد بيفاصل مع البياعين والتكاسي بطريقة تكسف وتجيب جلطة؟' },
+  { id: 'wau-m-03', gameId: 'who-among-us', deckId: 'wa-phone', mood: 'funny', textAr: 'مين أكتر واحد بيبعت ريكوردات طولها 5 دقايق وفي الآخر يطلع الموضوع يخلص في كلمتين؟' },
+  { id: 'wau-m-04', gameId: 'who-among-us', deckId: 'wa-gatherings', mood: 'funny', textAr: 'مين أكتر واحد بيطلب دايما أغرب أكل ومشروبات في الكافيهات لمجرد المنظرة؟' },
+  { id: 'wau-m-05', gameId: 'who-among-us', deckId: 'wa-drama', mood: 'bold', textAr: 'مين أكتر واحد بيعمل دراما من الحبة قبة وبيعيش دور الضحية في أي خلاف؟' },
+  { id: 'wau-m-06', gameId: 'who-among-us', deckId: 'wa-travel', mood: 'funny', textAr: 'مين أكتر واحد بيصحى في المصيف الساعة 3 العصر ويضيع اليوم كله على الباقيين؟' },
+  { id: 'wau-m-07', gameId: 'who-among-us', deckId: 'wa-gatherings', mood: 'funny', textAr: 'مين أكتر واحد بيقعد يفتي في أي موضوع (طب، سياسة، كورة، تصليح عربيات) وهو أبيض ميح؟' },
+  { id: 'wau-m-08', gameId: 'who-among-us', deckId: 'wa-phone', mood: 'funny', textAr: 'مين أكتر واحد بينسى يعيد المكالمات ومبيردش على حد وتليفونه دايما سايلنت؟' },
+  { id: 'wau-m-09', gameId: 'who-among-us', deckId: 'wa-shopping', mood: 'funny', textAr: 'مين أكتر واحد بيصرف مرتبه كله في أول 4 أيام في الشهر وباقي الشهر بيقضيه شحاتة وسلف؟' },
+  { id: 'wau-m-10', gameId: 'who-among-us', deckId: 'wa-gatherings', mood: 'funny', textAr: 'مين أكتر واحد فينا ممكن نلبسه في أي مصيبة ونخليه هو اللي يروح يتفاوض مع البوليس أو الجيران؟' },
 ];

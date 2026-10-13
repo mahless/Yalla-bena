@@ -214,4 +214,15 @@ export const DARES_CARDS: Card[] = [
   { id: 'dare-n-71', gameId: 'dares', deckId: 'dare-bold', mood: 'bold', textAr: 'اكتب رسالة اعتذار لأي حد زعلته الفتره دي وابعتها حالا.' },
   { id: 'dare-n-72', gameId: 'dares', deckId: 'dare-bold', mood: 'bold', textAr: 'اعترف بإيه أكتر حاجة تافهة بتغير منها تجاه غيرك.' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'dare-m-01', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'قلد طريقة كلام ومشية أكتر شخص مستفز في القعدة دي لمدة دقيقة كاملة.' },
+  { id: 'dare-m-02', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'افتح شباك الأوضة أو البلكونة ونادي بصوت عالي: "يا بواب العمارة.. أنا بحبك!"' },
+  { id: 'dare-m-03', gameId: 'dares', deckId: 'dare-bold', mood: 'bold', textAr: 'اتصل بمطعم بيتزا أو كشري واطلب أوردر غريب جدا زي "كشري بالسكر واللبن" وشوف هيرد إزاي.' },
+  { id: 'dare-m-04', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'اغمز لكل واحد في القعدة دي ورا بعض بنظرة درامية مريبة من غير ما تضحك.' },
+  { id: 'dare-m-05', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'اشرب بؤ شاي أو مية سخنة وإنت بتغني مقطع مهرجانات بصوت واطي ومضحك.' },
+  { id: 'dare-m-06', gameId: 'dares', deckId: 'dare-bold', mood: 'bold', textAr: 'غير اسم واحد من صحابك اللي قاعدين على موبايلك لـ "الكائن المستفز" ووريه الشاشة.' },
+  { id: 'dare-m-07', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'مثل مشهد درامي حزين من فيلم قديم واستعطف اللي جنبك يسلفك 20 جنيه.' },
+  { id: 'dare-m-08', gameId: 'dares', deckId: 'dare-bold', mood: 'bold', textAr: 'ابعت ريكورد لجروب العيلة وقول: "يا جماعة أنا قررت أتجوز الأسبوع الجاي ومحدش يعارضني" وسيبه دقيقتين.' },
+  { id: 'dare-m-09', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'اقعد في زاوية في الأوضة وكلم الحيطة لمدة دقيقة وكأنها أعز أصحابك وبتفضفض معاها.' },
+  { id: 'dare-m-10', gameId: 'dares', deckId: 'dare-funny', mood: 'funny', textAr: 'اتكلم باقي الدورين الجايين بنبرة مذيع نشرة الأخبار الرسمية وأي ضحك تعيد من الأول.' },
 ];

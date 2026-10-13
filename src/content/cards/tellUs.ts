@@ -477,4 +477,15 @@ export const TELL_US_CARDS: Card[] = [
   { id: 'tu-n-06', gameId: 'tell-us', deckId: 'tu-memories', mood: 'light', textAr: 'إحكيلنا عن رحلة مدرسية أو جامعية حصلت فيها كارثة منسيتهاش لحد دلوقتي.' },
   { id: 'tu-n-07', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا عن مرة نمت فيها في مكان عام أو مواصلات وحصل معاك موقف محرج.' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'tu-m-01', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن خناقة شوارع شوفتها أو حضرتها وكان سببها تافه جدا ومسخرة.' },
+  { id: 'tu-m-02', gameId: 'tell-us', deckId: 'tu-confessions', mood: 'funny', textAr: 'إحكيلنا عن كدبة بيضا كدبتها على أهلك عشان تخرج خروجة مع صحابك واتقفشت إزاي.' },
+  { id: 'tu-m-03', gameId: 'tell-us', deckId: 'tu-work', mood: 'funny', textAr: 'إحكيلنا عن أغرب موقف حصل معاك في الشغل أو الجامعة مع دكتور أو مدير رخم.' },
+  { id: 'tu-m-04', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن أسوأ عزومة روحتها وكان الأكل فيها كارثة واضطريت تجامل وتاكل بالعافية.' },
+  { id: 'tu-m-05', gameId: 'tell-us', deckId: 'tu-travel', mood: 'funny', textAr: 'إحكيلنا عن سفرية مصيف بوظتوها بقرارات غبية ورجعتوا مفلسين وفرحانين.' },
+  { id: 'tu-m-06', gameId: 'tell-us', deckId: 'tu-childhood', mood: 'funny', textAr: 'إحكيلنا عن مصيبة عملتها في طفولتك ولبستها لأخوك الصغير ونجوت بفعلتك.' },
+  { id: 'tu-m-07', gameId: 'tell-us', deckId: 'tu-confessions', mood: 'funny', textAr: 'إحكيلنا عن هدية جاتلك شكلها يقطع الخميرة من البيت وعملت بيها إيه؟' },
+  { id: 'tu-m-08', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن مرة سوقت فيها عربية أو ركبت عجلة/سكوتر وعملت حادثة هبلة جدا.' },
+  { id: 'tu-m-09', gameId: 'tell-us', deckId: 'tu-work', mood: 'funny', textAr: 'إحكيلنا عن أول يوم شغل ليك.. هل حسيت إنك فاهم حاجة ولا كنت زي الأطرش في الزفة؟' },
+  { id: 'tu-m-10', gameId: 'tell-us', deckId: 'tu-confessions', mood: 'deep', textAr: 'إحكيلنا عن سر فضل جواك سنين ومحدش يعرفه غيرك لحد اللحظة دي.' },
 ];

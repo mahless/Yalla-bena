@@ -408,4 +408,15 @@ export const TRUTH_CARDS: Card[] = [
   { id: 'tr-n-17', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'هل عمرك كدبت كدبة كبيرة في الشغل أو الجامعة ومشت عليهم كلهم؟' },
   { id: 'tr-n-18', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'مين الشخص اللي كان بيسندك وقت أزمتك الأخيرة؟ وهل شكرته ولا لأ؟' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'tr-m-01', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'مين في القعدة دي لو اتقفلت عليكوا أوضة معاه لمدة 24 ساعة هتتجنن وتشد في شعرك؟' },
+  { id: 'tr-m-02', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'إيه أكتر موقف اتظاهرت فيه إنك فاهم وإنت مكنتش فاهم ولا كلمة والناس كانت بتهز راسها؟' },
+  { id: 'tr-m-03', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'هل في شخص في حياتك قطعت علاقتك بيه وحسيت براحة وسكينة مكنتش متخيلها؟' },
+  { id: 'tr-m-04', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'قول بصراحة: إيه أكتر إيفيه بتقوله ودمك بيكون تقيل جدا وكلنا بنجاملك؟' },
+  { id: 'tr-m-05', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'إيه أكبر حوار فكسته واعتذرت عنه بحجة وهمية عشان تكسل وتنزل من تحت البطانية؟' },
+  { id: 'tr-m-06', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'لو هتدبس حد من القعدة دي يدفع حساب القعدة كلها النهاردة.. هتدبس مين؟ وليه هو بالذات؟' },
+  { id: 'tr-m-07', gameId: 'truth', deckId: 'tr-relationships', mood: 'deep', textAr: 'إيه أكتر كلمة اتقالتلك في حياتك وجرحتك ومقدرتش تنساها رغم مرور السنين؟' },
+  { id: 'tr-m-08', gameId: 'truth', deckId: 'tr-secrets', mood: 'bold', textAr: 'عمرك اتجسست على شات حد أو بصيت في شاشة موبايل اللي جنبك في الميكروباص؟ شوفت إيه؟' },
+  { id: 'tr-m-09', gameId: 'truth', deckId: 'tr-spicy', mood: 'funny', textAr: 'مين أكتر شخص في القعدة دي لو دخل مسابقة كدب ياخد الميدالية الذهبية بامتياز؟' },
+  { id: 'tr-m-10', gameId: 'truth', deckId: 'tr-gratitude', mood: 'light', textAr: 'وجه كلمة حب وتقدير لحد في القعدة دي حاسس إنه شايل همك وواقف في ضهرك دايما.' },
 ];

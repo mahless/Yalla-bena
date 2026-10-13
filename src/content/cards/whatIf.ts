@@ -420,4 +420,15 @@ export const WHAT_IF_CARDS: Card[] = [
   { id: 'wi-n-15', gameId: 'what-if', deckId: 'wi-dilemmas', mood: 'deep', textAr: 'لو عرفت إن الشخص اللي بتحبه هيتأذي جامد لو فضل معاك.. هتسيبه عشان مصلحته ولا هتتمسك بيه وتخاطر؟' },
   { id: 'wi-n-16', gameId: 'what-if', deckId: 'wi-egyptian', mood: 'funny', textAr: 'لو ركبت أسانسير مع حد مابتحبوش والأسانسير عطل بيكوا ساعة.. الحوار بينكوا هيبقى إزاي؟' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'wi-m-01', gameId: 'what-if', deckId: 'wi-surreal', mood: 'funny', textAr: 'لو صحيت لقيت نفسك بقيت رئيس حي أو رئيس وزراء لمدة 24 ساعة.. أول قرار هتطبقه فوراً إيه؟' },
+  { id: 'wi-m-02', gameId: 'what-if', deckId: 'wi-social', mood: 'funny', textAr: 'لو اتعرض عليك تاكل حلة محشي كاملة لوحدك في ربع ساعة مقابل 10 آلاف جنيه.. هتقدر ولا بطنك هتخذلك؟' },
+  { id: 'wi-m-03', gameId: 'what-if', deckId: 'wi-powers', mood: 'funny', textAr: 'لو عندك زرار تدوس عليه يخلي أي حد بيكدب قدامك يعطس جامد.. هتستعمله مع مين أول واحد؟' },
+  { id: 'wi-m-04', gameId: 'what-if', deckId: 'wi-surreal', mood: 'funny', textAr: 'لو فجأة كل الناس نسيت استخدام الموبايلات ورجعنا لزمن الجوابات والسنترال.. حياتك هتتحسن ولا هتدخل في اكتئاب؟' },
+  { id: 'wi-m-05', gameId: 'what-if', deckId: 'wi-social', mood: 'funny', textAr: 'لو اتزنقت في فلوس ومفيش قدامك غير إنك تبيع حاجة واحدة من أغلى مقتنياتك.. هتضحي بإيه؟' },
+  { id: 'wi-m-06', gameId: 'what-if', deckId: 'wi-powers', mood: 'funny', textAr: 'لو تقدر تخلي واحد من صحابك اللي في القعدة يبطل عادة معينة فيه.. هتختار مين وتبطل له إيه؟' },
+  { id: 'wi-m-07', gameId: 'what-if', deckId: 'wi-surreal', mood: 'funny', textAr: 'لو قالولك إن الأشباح والعفاريت موجودين في شقتك بس غلابة وبيهزروا.. هتصاحبهم ولا هتعزل في نفس اليوم؟' },
+  { id: 'wi-m-08', gameId: 'what-if', deckId: 'wi-dilemmas', mood: 'deep', textAr: 'لو خيروك بين إنك تكسب احترام كل الناس بس تظل مجهول، أو تبقى مشهور ومثير للجدل والناس بتتكلم عليك.. هتختار إيه؟' },
+  { id: 'wi-m-09', gameId: 'what-if', deckId: 'wi-future', mood: 'light', textAr: 'لو سافرت 30 سنة قدام وقابلت ابنك أو حفيدك.. تفتكر هيكون بيشتكي منك ولا فخور بيك؟' },
+  { id: 'wi-m-10', gameId: 'what-if', deckId: 'wi-social', mood: 'funny', textAr: 'لو لقيت في حسابك البنكي فجأة مليون جنيه بالغلط وكلموك قالولك معاك ساعة ترجعهم.. هتعمل عبيط ولا هترجعهم؟' },
 ];

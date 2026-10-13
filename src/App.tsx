@@ -398,9 +398,14 @@ export default function App() {
 
   // Exit gameplay back to home
   const handleExitGame = useCallback(() => {
-    closeView(() => setIsGameplayActive(false));
+    setIsGameplayActive(false);
+    try {
+      if (window.history.state && window.history.state.view && window.history.state.view.startsWith('gameplay')) {
+        window.history.replaceState({ view: 'home' }, '');
+      }
+    } catch {}
     sound.tap();
-  }, [closeView, sound]);
+  }, [sound]);
 
   // Play favorites custom session
   const handlePlayFavorites = useCallback(

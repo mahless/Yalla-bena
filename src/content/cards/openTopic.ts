@@ -558,6 +558,17 @@ export const OPEN_TOPIC_CARDS: Card[] = [
   { id: 'ot-e-03', gameId: 'open-topic', deckId: 'ot-deep', mood: 'deep', textAr: 'تفتكر إيه أهم صفة لازم تكون موجودة في شريك حياتك ومفيش فيها فصال؟' },
   { id: 'ot-e-04', gameId: 'open-topic', deckId: 'ot-deep', mood: 'deep', textAr: 'لو قدامك فرصة ترجع بالزمن وتغير قرار واحد أخدته.. هتغير إيه؟' },
   { id: 'ot-e-05', gameId: 'open-topic', deckId: 'ot-funny', mood: 'funny', textAr: 'لو الحيوانات كانت بتتكلم.. تفتكر إيه أوقح حيوان فيهم وهيبقى بيقول إيه؟' },
-  { id: 'ot-e-06', gameId: 'open-topic', deckId: 'ot-funny', mood: 'funny', textAr: 'إيه أكتر موقف محرج حصلك في المواصلات أو الشارع وكنت عايز الأرض تنشق وتبلعك؟' }
+  { id: 'ot-e-06', gameId: 'open-topic', deckId: 'ot-funny', mood: 'funny', textAr: 'إيه أكتر موقف محرج حصلك في المواصلات أو الشارع وكنت عايز الأرض تنشق وتبلعك؟' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'ot-m-01', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'إيه أغرب تصرف بتعمله وإنت لوحدك في البيت ومستحيل تعترف بيه قدام حد؟' },
+  { id: 'ot-m-02', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'إيه أكتر كلمة أو لزمة مصرية بتسمعها في الشارع وبتنرفزك جدا من غير سبب؟' },
+  { id: 'ot-m-03', gameId: 'open-topic', deckId: 'ot-starter', mood: 'light', textAr: 'لو دخلت كافيه ولقيتهم كاتبين الشاي بـ 150 جنيه.. هتقوم تمشي بكرامتك ولا هتدبس وتطلبه؟' },
+  { id: 'ot-m-04', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'إيه أكتر تريند طلع على السوشيال ميديا وشايف إنه قمة الغباء والناس كانت بتهري فيه؟' },
+  { id: 'ot-m-05', gameId: 'open-topic', deckId: 'ot-nostalgia', mood: 'light', textAr: 'إيه النوستالجيا القديمة اللي لسه مأثرة فيك؟ ألعاب زمان ولا مسلسلات رمضان بتاعة زمان؟' },
+  { id: 'ot-m-06', gameId: 'open-topic', deckId: 'ot-family', mood: 'funny', textAr: 'إيه أكتر جملة مشهورة مامتك بتقولهالك لما تطلب منها حاجة والرد دايما إحباط؟' },
+  { id: 'ot-m-07', gameId: 'open-topic', deckId: 'ot-social', mood: 'funny', textAr: 'إيه أكتر رسالة على الواتساب بتشوفها وتعمل نفسك ميت ومتردش عليها غير بعد ٣ أيام؟' },
+  { id: 'ot-m-08', gameId: 'open-topic', deckId: 'ot-starter', mood: 'light', textAr: 'لو خيروك تاكل طول حياتك كشري بس ولا طعمية وفول بس.. هتضحي بإيه؟' },
+  { id: 'ot-m-09', gameId: 'open-topic', deckId: 'ot-friends', mood: 'funny', textAr: 'إيه الحركة اللي صاحبك بيعملها وتخليك نفسك تديله قلم على قفاه بس بتمسك نفسك؟' },
+  { id: 'ot-m-10', gameId: 'open-topic', deckId: 'ot-deep', mood: 'deep', textAr: 'إيه أكبر درس علمهولك التعامل مع الناس وخلاك تبطل تكون على نياتك؟' },
 ];

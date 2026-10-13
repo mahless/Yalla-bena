@@ -409,4 +409,15 @@ export const CHOOSE_CARDS: Card[] = [
   { id: 'ch-n-08', gameId: 'choose', deckId: 'ch-career', mood: 'deep', textAr: 'تاخد ترقية كبيرة جدا في شغلك بس زمايلك كلهم يكرهوك، ولا تفضل في نفس مكانك بس الكل بيحبك؟' },
   { id: 'ch-n-09', gameId: 'choose', deckId: 'ch-lifestyle', mood: 'light', textAr: 'تاكل أكل صحي ومفيد بس طعمه وحش جدا طول حياتك، ولا تاكل فاست فود بس تتخن وتبقى مش صحي؟' },
 
+  // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
+  { id: 'ch-m-01', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تركب ميكروباص زحمة في عز الصيف والتكييف عطلان والشبابيك مقفولة، ولا تركب مع سواق تاكسي رغاي يحكيلك قصة حياته كلها ساعتين؟' },
+  { id: 'ch-m-02', gameId: 'choose', deckId: 'ch-relationships', mood: 'bold', textAr: 'تخرج مع صاحبك البخيل اللي بيقعد يقسم الفاتورة بالقرش، ولا صاحبك الرغاي اللي مبيخليش حد يتكلم كلمة واحدة؟' },
+  { id: 'ch-m-03', gameId: 'choose', deckId: 'ch-lifestyle', mood: 'funny', textAr: 'تنزل الشارع لابس شبشب حمام أزرق، ولا تلبس تيشرت عليه صورتك وإنت صغير في سنة أولى ابتدائي؟' },
+  { id: 'ch-m-04', gameId: 'choose', deckId: 'ch-career', mood: 'deep', textAr: 'مرتب عالي جدا في شركة بتعاملك بنظام العبيد، ولا مرتب على القد في مكان هادي والكل فيه عيلة واحدة وبتفطروا سوا كل يوم؟' },
+  { id: 'ch-m-05', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'كل ما تتكلم كلمة جد في حياتك تبوظ منك وتقول إيفيه بايخ، ولا كل ما تهزر محدش يضحك ويسود الصمت التام؟' },
+  { id: 'ch-m-06', gameId: 'choose', deckId: 'ch-relationships', mood: 'bold', textAr: 'تتجوز حد أمه بتتدخل في كل تفصيلة في حياتكم، ولا حد مبيعرفش يطبخ ولا يعمل شاي حتى وتعيشوا على الدليفري طول العمر؟' },
+  { id: 'ch-m-07', gameId: 'choose', deckId: 'ch-impossible', mood: 'bold', textAr: 'تعيش من غير قهوة وشاي ومكيفات تماما، ولا تعيش من غير شاورما وبرجر ومأكولات سريعة؟' },
+  { id: 'ch-m-08', gameId: 'choose', deckId: 'ch-hilarious', mood: 'funny', textAr: 'تسمع أغاني مهرجانات بنبرة عالية في ودنك 24 ساعة، ولا تسمع صوت سرينة إسعاف كل نص ساعة؟' },
+  { id: 'ch-m-09', gameId: 'choose', deckId: 'ch-career', mood: 'funny', textAr: 'تبقى دكتور سنان والناس كلها بتخاف منك وبتكرهك، ولا تبقى محامي تعويضات ومشاكل وكل حياتك خناقات ومحاكم؟' },
+  { id: 'ch-m-10', gameId: 'choose', deckId: 'ch-lifestyle', mood: 'light', textAr: 'تسافر إسكندرية في الشتا في عز النوة والمطر والبرد، ولا تسافر دهب أو شرم في عز شهر أغسطس والحر يسيح الصخر؟' },
 ];

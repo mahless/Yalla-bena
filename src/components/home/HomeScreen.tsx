@@ -20,6 +20,7 @@ import {
   Scale,
   Target,
   Flame,
+  Zap,
 } from 'lucide-react';
 import { formatNumber } from '../../i18n/translations';
 
@@ -124,7 +125,7 @@ const GAME_CARD_THEMES: Record<GameId, GameCardTheme> = {
     hoverBorderColor: 'rgba(239, 68, 68, 0.5)',
     iconBg: 'bg-red-500/10 border-red-500/25',
     iconText: 'text-red-700',
-    Icon: Flame, // Reusing Flame or maybe Sparkles
+    Icon: Zap,
     tag: 'أحكام مسخرة',
   },
 };

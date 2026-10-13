@@ -553,12 +553,12 @@ export const OPEN_TOPIC_CARDS: Card[] = [
     textAr: 'إيه هو الوسواس أو الطقس العجيب اللي تكرره قبل النوم (فحص قفل الباب 3 مرات، ضبط المنبه بدقيقة فردية)؟',
   },
 
-  { id: 'ot-e-01', gameId: 'open-topic', deckId: 'ot-icebreakers', mood: 'light', textAr: 'إيه أكتر حاجة تافهة بتعصبك جداً ومش مبررة؟' },
-  { id: 'ot-e-02', gameId: 'open-topic', deckId: 'ot-icebreakers', mood: 'light', textAr: 'لو تقدر تلغي أكلة واحدة من الوجود ومحدش ياكلها تاني.. هتختار إيه؟' },
+  { id: 'ot-e-01', gameId: 'open-topic', deckId: 'ot-starter', mood: 'light', textAr: 'إيه أكتر حاجة تافهة بتعصبك جداً ومش مبررة؟' },
+  { id: 'ot-e-02', gameId: 'open-topic', deckId: 'ot-starter', mood: 'light', textAr: 'لو تقدر تلغي أكلة واحدة من الوجود ومحدش ياكلها تاني.. هتختار إيه؟' },
   { id: 'ot-e-03', gameId: 'open-topic', deckId: 'ot-deep', mood: 'deep', textAr: 'تفتكر إيه أهم صفة لازم تكون موجودة في شريك حياتك ومفيش فيها فصال؟' },
   { id: 'ot-e-04', gameId: 'open-topic', deckId: 'ot-deep', mood: 'deep', textAr: 'لو قدامك فرصة ترجع بالزمن وتغير قرار واحد أخدته.. هتغير إيه؟' },
-  { id: 'ot-e-05', gameId: 'open-topic', deckId: 'ot-funny', mood: 'funny', textAr: 'لو الحيوانات كانت بتتكلم.. تفتكر إيه أوقح حيوان فيهم وهيبقى بيقول إيه؟' },
-  { id: 'ot-e-06', gameId: 'open-topic', deckId: 'ot-funny', mood: 'funny', textAr: 'إيه أكتر موقف محرج حصلك في المواصلات أو الشارع وكنت عايز الأرض تنشق وتبلعك؟' },
+  { id: 'ot-e-05', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'لو الحيوانات كانت بتتكلم.. تفتكر إيه أوقح حيوان فيهم وهيبقى بيقول إيه؟' },
+  { id: 'ot-e-06', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'إيه أكتر موقف محرج حصلك في المواصلات أو الشارع وكنت عايز الأرض تنشق وتبلعك؟' },
 
   // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
   { id: 'ot-m-01', gameId: 'open-topic', deckId: 'ot-quirky', mood: 'funny', textAr: 'إيه أغرب تصرف بتعمله وإنت لوحدك في البيت ومستحيل تعترف بيه قدام حد؟' },

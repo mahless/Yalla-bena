@@ -460,22 +460,20 @@ export const TELL_US_CARDS: Card[] = [
     textAr: 'إحكيلنا عن صديق طفولة قديم جمعتكم ذكريات ذهبية في المدرسة أو الحارة وتتمنى لو تلتقي به اليوم.',
   },
 
-  { id: 'tu-e-01', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا عن موقف عملت فيه ناصح وطلعت في الآخر مبصمجي ولبست في الحيط.' },
-  { id: 'tu-e-02', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا أكتر موقف اتحرجت فيه قدام الكراش أو حد كنت معجب بيه زمان.' },
-  { id: 'tu-e-03', gameId: 'tell-us', deckId: 'tu-first-times', mood: 'deep', textAr: 'إحكيلنا عن أول انترفيو شغل تعمله في حياتك وكان إحساسك إيه.' },
-  { id: 'tu-e-04', gameId: 'tell-us', deckId: 'tu-first-times', mood: 'deep', textAr: 'إحكيلنا عن أول مرة تسافر فيها لوحدك أو تبعد عن أهلك فترة طويلة.' },
+  { id: 'tu-e-01', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن موقف عملت فيه ناصح وطلعت في الآخر مبصمجي ولبست في الحيط.' },
+  { id: 'tu-e-02', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا أكتر موقف اتحرجت فيه قدام الكراش أو حد كنت معجب بيه زمان.' },
+  { id: 'tu-e-03', gameId: 'tell-us', deckId: 'tu-milestones', mood: 'deep', textAr: 'إحكيلنا عن أول انترفيو شغل تعمله في حياتك وكان إحساسك إيه.' },
+  { id: 'tu-e-04', gameId: 'tell-us', deckId: 'tu-milestones', mood: 'deep', textAr: 'إحكيلنا عن أول مرة تسافر فيها لوحدك أو تبعد عن أهلك فترة طويلة.' },
   { id: 'tu-e-05', gameId: 'tell-us', deckId: 'tu-memories', mood: 'light', textAr: 'إحكيلنا عن أكتر مقلب عملته في حد من صحابك أو العيلة.' },
   { id: 'tu-e-06', gameId: 'tell-us', deckId: 'tu-memories', mood: 'light', textAr: 'إحكيلنا ذكرياتك مع امتحانات الثانوية العامة وأغرب حاجة حصلتلك وقتها.' },
 
-
-
-  { id: 'tu-n-01', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا عن مرة لبست فيها طقم فاكره شيك جدا ولما كبرت وشوفت صورك اتصدمت من المنظر.' },
-  { id: 'tu-n-02', gameId: 'tell-us', deckId: 'tu-first-times', mood: 'deep', textAr: 'إحكيلنا عن أول مرة حسيت إنك خذلت حد قريب منك جدا.' },
+  { id: 'tu-n-01', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن مرة لبست فيها طقم فاكره شيك جدا ولما كبرت وشوفت صورك اتصدمت من المنظر.' },
+  { id: 'tu-n-02', gameId: 'tell-us', deckId: 'tu-milestones', mood: 'deep', textAr: 'إحكيلنا عن أول مرة حسيت إنك خذلت حد قريب منك جدا.' },
   { id: 'tu-n-03', gameId: 'tell-us', deckId: 'tu-memories', mood: 'light', textAr: 'إحكيلنا عن أكلة كنت بتكرهها جدا وإنت صغير ودلوقتي بقيت مدمنها.' },
-  { id: 'tu-n-04', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا عن أغبى سؤال سألته في الفصل أو المدرج وخليت الدفعة كلها تضحك عليك.' },
-  { id: 'tu-n-05', gameId: 'tell-us', deckId: 'tu-first-times', mood: 'deep', textAr: 'إحكيلنا عن أول خناقة كبيرة بينك وبين أعز صحابك واتصالحتوا إزاي.' },
+  { id: 'tu-n-04', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن أغبى سؤال سألته في الفصل أو المدرج وخليت الدفعة كلها تضحك عليك.' },
+  { id: 'tu-n-05', gameId: 'tell-us', deckId: 'tu-milestones', mood: 'deep', textAr: 'إحكيلنا عن أول خناقة كبيرة بينك وبين أعز صحابك واتصالحتوا إزاي.' },
   { id: 'tu-n-06', gameId: 'tell-us', deckId: 'tu-memories', mood: 'light', textAr: 'إحكيلنا عن رحلة مدرسية أو جامعية حصلت فيها كارثة منسيتهاش لحد دلوقتي.' },
-  { id: 'tu-n-07', gameId: 'tell-us', deckId: 'tu-embarrassing', mood: 'funny', textAr: 'إحكيلنا عن مرة نمت فيها في مكان عام أو مواصلات وحصل معاك موقف محرج.' },
+  { id: 'tu-n-07', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن مرة نمت فيها في مكان عام أو مواصلات وحصل معاك موقف محرج.' },
 
   // --- إضافات مصرية كوميدية دسمة (10 كروت جديدة) ---
   { id: 'tu-m-01', gameId: 'tell-us', deckId: 'tu-memories', mood: 'funny', textAr: 'إحكيلنا عن خناقة شوارع شوفتها أو حضرتها وكان سببها تافه جدا ومسخرة.' },

@@ -213,6 +213,7 @@ export const GameplayScreen: React.FC<GameplayScreenProps> = ({
             </div>
           ) : currentCard ? (
             <PlayCard
+              key={currentCard.id}
               card={currentCard}
               game={game}
               isFlipped={session.isFlipped}

@@ -95,19 +95,6 @@ export const SettingsSheet: React.FC<SettingsSheetProps> = ({
               />
             </div>
 
-            {/* Offline Badge Note */}
-            <div className="flex items-center gap-3 p-4 rounded-2xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs mt-2">
-              <ShieldCheck className="w-5 h-5 flex-shrink-0 text-emerald-600" />
-              <div>
-                <p className="font-bold text-emerald-900">
-                  تطبيق محلي أوفلاين 100%
-                </p>
-                <p className="text-[11px] text-emerald-700 mt-0.5 leading-relaxed">
-                  يعمل في أي مكان وفي السفر بدون أي اتصال بالإنترنت أو تسجيل دخول، وتظل بياناتك محفوظة محلياً.
-                </p>
-              </div>
-            </div>
-
             {/* Reset progress */}
             <div className="pt-3">
               <button

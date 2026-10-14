@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
 import { Card, GameDefinition, Player, CardMood } from '../../types/game';
-import { Bookmark, Sparkles, RefreshCw } from 'lucide-react';
+import { Bookmark, Sparkles, RefreshCw, Compass } from 'lucide-react';
 import { formatNumber } from '../../i18n/translations';
+import { GAME_DECKS } from '../../content/cards';
 
 interface PlayCardProps {
   card: Card;
@@ -77,60 +78,176 @@ export const PlayCard: React.FC<PlayCardProps> = ({
     }
   };
 
-  // Render SVG geometric patterns tailored to the game
+  // Render SVG geometric patterns tailored to each specific card with clear distinct shapes
   const renderCardFrontArt = () => {
-    switch (game.cardPattern) {
-      case 'rings':
+    // Generate a stable numeric seed from card ID + card index
+    let hash = cardIndex * 7;
+    for (let i = 0; i < card.id.length; i++) {
+      hash = (hash << 5) - hash + card.id.charCodeAt(i);
+      hash |= 0;
+    }
+    const patternType = Math.abs(hash) % 12;
+
+    switch (patternType) {
+      case 0:
+        // Concentric Rings with Inner Crosshairs
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            <circle cx="100" cy="100" r="80" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="4 4" />
-            <circle cx="100" cy="100" r="56" stroke="currentColor" strokeWidth="1.5" fill="none" />
-            <circle cx="100" cy="100" r="32" stroke="currentColor" strokeWidth="2" fill="none" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="82" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="6 4" />
+            <circle cx="100" cy="100" r="60" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            <circle cx="100" cy="100" r="38" stroke="currentColor" strokeWidth="2" fill="none" />
+            <line x1="100" y1="24" x2="100" y2="176" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" />
+            <line x1="24" y1="100" x2="176" y2="100" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" />
+            <circle cx="100" cy="100" r="7" fill="currentColor" />
+          </svg>
+        );
+
+      case 1:
+        // Double Overlapping Diamonds (Rhombus Star)
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <polygon points="100,20 178,100 100,180 22,100" stroke="currentColor" strokeWidth="2" fill="none" />
+            <rect x="52" y="52" width="96" height="96" rx="8" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="5 3" />
+            <polygon points="100,56 144,100 100,144 56,100" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="9" fill="currentColor" />
+          </svg>
+        );
+
+      case 2:
+        // Sacred Hexagon & Star Matrix
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <polygon points="100,24 168,62 168,138 100,176 32,138 32,62" stroke="currentColor" strokeWidth="2" fill="none" />
+            <polygon points="100,50 142,75 142,125 100,150 58,125 58,75" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="4 4" />
+            <circle cx="100" cy="100" r="22" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="6" fill="currentColor" />
+          </svg>
+        );
+
+      case 3:
+        // Target Compass with Cardinal Markers
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="78" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="48" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            <polygon points="100,28 107,44 93,44" fill="currentColor" />
+            <polygon points="100,172 107,156 93,156" fill="currentColor" />
+            <polygon points="28,100 44,93 44,107" fill="currentColor" />
+            <polygon points="172,100 156,93 156,107" fill="currentColor" />
+            <circle cx="100" cy="100" r="14" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="5" fill="currentColor" />
+          </svg>
+        );
+
+      case 4:
+        // Dynamic Multi-Wave & Flowing Sine Lines
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="82" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="3 3" />
+            <path d="M 30 65 Q 65 35 100 65 T 170 65" stroke="currentColor" strokeWidth="2.5" fill="none" />
+            <path d="M 30 100 Q 65 70 100 100 T 170 100" stroke="currentColor" strokeWidth="2.5" fill="none" />
+            <path d="M 30 135 Q 65 105 100 135 T 170 135" stroke="currentColor" strokeWidth="2.5" fill="none" />
             <circle cx="100" cy="100" r="8" fill="currentColor" />
           </svg>
         );
-      case 'waves':
+
+      case 5:
+        // Geometric 8-Pointed Star (Octagram)
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            <path d="M 20 60 Q 60 20 100 60 T 180 60" stroke="currentColor" strokeWidth="2" fill="none" />
-            <path d="M 20 100 Q 60 60 100 100 T 180 100" stroke="currentColor" strokeWidth="2" fill="none" />
-            <path d="M 20 140 Q 60 100 100 140 T 180 140" stroke="currentColor" strokeWidth="2" fill="none" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <rect x="42" y="42" width="116" height="116" rx="4" stroke="currentColor" strokeWidth="2" fill="none" />
+            <rect x="42" y="42" width="116" height="116" rx="4" transform="rotate(45 100 100)" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="32" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            <circle cx="100" cy="100" r="8" fill="currentColor" />
           </svg>
         );
-      case 'cross':
+
+      case 6:
+        // Dot-Matrix Constellation with Radial Grid
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            <line x1="30" y1="30" x2="170" y2="170" stroke="currentColor" strokeWidth="2" />
-            <line x1="170" y1="30" x2="30" y2="170" stroke="currentColor" strokeWidth="2" />
-            <circle cx="100" cy="100" r="38" stroke="currentColor" strokeWidth="2" fill="none" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="2 4" />
+            {[-50, -25, 0, 25, 50].map((x) =>
+              [-50, -25, 0, 25, 50].map((y) => (
+                <circle
+                  key={`dot-${x}-${y}`}
+                  cx={100 + x}
+                  cy={100 + y}
+                  r={(x === 0 && y === 0) ? 6 : ((Math.abs(x) === 50 || Math.abs(y) === 50) ? 2 : 3)}
+                  fill="currentColor"
+                />
+              ))
+            )}
+            <circle cx="100" cy="100" r="46" stroke="currentColor" strokeWidth="1.5" fill="none" />
           </svg>
         );
-      case 'target':
+
+      case 7:
+        // Hourglass / Intersection Diagonals
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            <circle cx="100" cy="100" r="70" stroke="currentColor" strokeWidth="1.5" fill="none" />
-            <circle cx="100" cy="100" r="40" stroke="currentColor" strokeWidth="1.5" fill="none" />
-            <line x1="100" y1="15" x2="100" y2="185" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" />
-            <line x1="15" y1="100" x2="185" y2="100" stroke="currentColor" strokeWidth="1.5" strokeDasharray="3 3" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="82" stroke="currentColor" strokeWidth="2" fill="none" />
+            <polygon points="40,40 160,40 100,100" stroke="currentColor" strokeWidth="2" fill="none" />
+            <polygon points="40,160 160,160 100,100" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="16" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="6" fill="currentColor" />
           </svg>
         );
-      case 'diamonds':
+
+      case 8:
+        // Concentric Triple Nested Triangles
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            <polygon points="100,20 180,100 100,180 20,100" stroke="currentColor" strokeWidth="1.5" fill="none" />
-            <polygon points="100,50 150,100 100,150 50,100" stroke="currentColor" strokeWidth="1.5" fill="none" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <polygon points="100,26 176,164 24,164" stroke="currentColor" strokeWidth="2" fill="none" />
+            <polygon points="100,68 152,152 48,152" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="4 3" />
+            <polygon points="100,104 128,144 72,144" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            <circle cx="100" cy="126" r="6" fill="currentColor" />
+          </svg>
+        );
+
+      case 9:
+        // Radar / Sonar Arcs & Quadrants
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" stroke="currentColor" strokeWidth="2" fill="none" />
+            <path d="M 100 20 A 80 80 0 0 1 180 100 L 100 100 Z" fill="currentColor" opacity="0.18" />
+            <circle cx="100" cy="100" r="54" stroke="currentColor" strokeWidth="1.5" fill="none" />
+            <circle cx="100" cy="100" r="28" stroke="currentColor" strokeWidth="1.5" fill="none" strokeDasharray="3 3" />
+            <circle cx="100" cy="100" r="7" fill="currentColor" />
+          </svg>
+        );
+
+      case 10:
+        // Infinite Orbital Ellipses (Atomic Loop)
+        return (
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <ellipse cx="100" cy="100" rx="80" ry="32" stroke="currentColor" strokeWidth="2" fill="none" />
+            <ellipse cx="100" cy="100" rx="80" ry="32" transform="rotate(60 100 100)" stroke="currentColor" strokeWidth="2" fill="none" />
+            <ellipse cx="100" cy="100" rx="80" ry="32" transform="rotate(120 100 100)" stroke="currentColor" strokeWidth="2" fill="none" />
             <circle cx="100" cy="100" r="10" fill="currentColor" />
           </svg>
         );
-      default: // dots-matrix
+
+      default:
+        // Sunburst / Radiating Gear Petals
         return (
-          <svg className="w-full h-full opacity-35" viewBox="0 0 200 200">
-            {[-60, -30, 0, 30, 60].map((x) =>
-              [-60, -30, 0, 30, 60].map((y) => (
-                <circle key={`${x}-${y}`} cx={100 + x} cy={100 + y} r="2.5" fill="currentColor" />
-              ))
-            )}
-            <circle cx="100" cy="100" r="45" stroke="currentColor" strokeWidth="1.5" fill="none" />
+          <svg className="w-full h-full opacity-45" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" stroke="currentColor" strokeWidth="2" fill="none" strokeDasharray="4 4" />
+            {[0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].map((deg) => (
+              <line
+                key={`ray-${deg}`}
+                x1="100"
+                y1="40"
+                x2="100"
+                y2="58"
+                transform={`rotate(${deg} 100 100)`}
+                stroke="currentColor"
+                strokeWidth="2.5"
+                strokeLinecap="round"
+              />
+            ))}
+            <circle cx="100" cy="100" r="38" stroke="currentColor" strokeWidth="2" fill="none" />
+            <circle cx="100" cy="100" r="8" fill="currentColor" />
           </svg>
         );
     }
@@ -144,7 +261,7 @@ export const PlayCard: React.FC<PlayCardProps> = ({
 
   return (
     <div
-      className="relative w-full max-w-[340px] xs:max-w-[360px] aspect-[1/1.42] perspective-1000 mx-auto select-none"
+      className="relative w-full max-w-[340px] xs:max-w-[360px] aspect-[1/1.42] perspective-1000 mx-auto select-none animate-card-in"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -180,7 +297,9 @@ export const PlayCard: React.FC<PlayCardProps> = ({
           <div className="relative my-auto flex flex-col items-center justify-center text-center py-4">
             <div
               className="w-36 h-36 flex items-center justify-center relative rounded-full"
-              style={{ color: game.accentColor }}
+              style={{
+                color: game.accentColor,
+              }}
             >
               {renderCardFrontArt()}
               <div
@@ -189,13 +308,35 @@ export const PlayCard: React.FC<PlayCardProps> = ({
               />
             </div>
 
-            <div className="mt-4">
-              <h3 className="text-2xl font-extrabold tracking-tight text-stone-900 mb-1">
+            <div className="mt-4 flex flex-col items-center">
+              <h3 className="text-2xl font-extrabold tracking-tight text-stone-900 mb-1.5">
                 {title}
               </h3>
-              <p className="text-xs text-stone-500 max-w-[220px] mx-auto line-clamp-1">
-                {game.taglineAr}
-              </p>
+
+              {/* Dynamic Deck Topic Badge on Cover */}
+              {(() => {
+                const gameDecks = GAME_DECKS[card.gameId] || [];
+                const deckInfo = gameDecks.find((d) => d.id === card.deckId);
+                const deckName = deckInfo?.nameAr;
+
+                return deckName ? (
+                  <span
+                    className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold border shadow-2xs transition-all mb-1"
+                    style={{
+                      backgroundColor: `${game.accentColor}12`,
+                      borderColor: `${game.accentColor}30`,
+                      color: game.accentColor,
+                    }}
+                  >
+                    <Compass className="w-3 h-3" />
+                    <span>{deckName}</span>
+                  </span>
+                ) : (
+                  <p className="text-xs text-stone-500 max-w-[220px] mx-auto line-clamp-1">
+                    {game.taglineAr}
+                  </p>
+                );
+              })()}
             </div>
           </div>
 
